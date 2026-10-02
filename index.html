@@ -94,8 +94,8 @@ section{position:relative}
 .sched{border-top:1px solid var(--ink)}
 .row{display:grid;grid-template-columns:3.2rem 1fr;gap:0 1rem;padding:1.6rem 0;border-bottom:1px solid var(--line)}
 .row .no{font-family:var(--mono);font-size:.78rem;color:var(--mute);padding-top:.35rem}
-.row p{color:var(--ink2);margin-top:.6rem}
-@media (min-width:900px){.row{grid-template-columns:6rem 1fr 1.3fr;padding:2.2rem 0}.row p{margin-top:0}}
+.row p{color:var(--ink2);margin-top:.6rem;grid-column:2}
+@media (min-width:900px){.row{grid-template-columns:6rem 1fr 1.3fr;padding:2.2rem 0}.row p{margin-top:0;grid-column:3}}
 .row h3{transition:transform .35s cubic-bezier(.2,.7,.2,1)}
 @media (hover:hover){.row:hover h3{transform:translateX(.5rem)}}
 
